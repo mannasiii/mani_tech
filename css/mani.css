@@ -2314,3 +2314,24 @@ margin-top:15px;
 
 }
 
+
+.theme-toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 8px 25px rgba(0,0,0,.2);
+    transition: .3s;
+}
+
+.theme-toggle:hover{
+    transform: rotate(180deg) scale(1.08);
+}
